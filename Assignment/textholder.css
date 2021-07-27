@@ -1,0 +1,57 @@
+.textbox{
+	border:5px solid black;
+	width:900px;
+	height:510px;
+	margin:auto;
+	position:static;
+	margin-top:10px;
+	}
+	.textbox1{
+	position:static;
+	width:890px;
+	height:50px;
+	margin:auto;
+	background-color:black;
+	color:white;
+		}
+.textbox2{
+	position:static;
+	width:850px;
+	height:120px;
+	font-size:18px;
+	text-align:center;
+	margin-top:20px;
+	margin-left:20px;
+		}
+.imagecontainer{
+	position:static;
+	width:890px;
+	height:350px;
+	}
+.imagecontainertext{
+	position:static;
+	width:890px;
+	height:45px;
+	background-color:black;
+	color:white;
+	text-align:center;
+	}
+.image{
+	width:200px;
+	height:200px;
+	position:static;
+	float:left;
+	margin-left:8%;
+	margin-top:3%;
+	}
+.caption{
+	width:200px;
+	height:50px;
+	position:static;
+	float:left;
+	margin-left:8%;
+	text-align:center;
+	font-size:18px;
+	font-family:Tahoma, Geneva, sans-serif;
+	}
+

@@ -1,0 +1,14 @@
+.container-1 {
+	height: auto;
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+
+container-1 .companylogo{
+	text-align:center;
+	height:auto;
+	width: 100%;
+}

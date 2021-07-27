@@ -8,40 +8,51 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Nimayka - Product</title>
   </head>
+  <style>
+  </style>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Expand at lg</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarsExample05">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown05">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-md-0">
-            <input class="form-control" type="text" placeholder="Search">
-          </form>
+    <div class="container-xl">
+      <header class="d-flex justify-content-center py-3 bg-dark text-white">
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="/index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="/product.html" class="nav-link active" aria-current="page">Product</a></li>
+          <li class="nav-item"><a href="/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </header>
+    </div>
+    <div class="container px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2 border-bottom">Product</h2>
+        <p>Made by NimayKa.</p>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+            </div>
+            <div>
+              <h2>Live Life</h2>
+              <p>Live Life is Our first ever assignment that were given to us by our lecturer, A website that me and my group made back when semester 3 on module Web development. </p>
+              <a href="./Assignment/Homepage.html" class="btn btn-primary">
+                Visit
+              </a>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
+            </div>
+            <div>
+              <h2>Patient health Monitoring System</h2>
+              <p>In final year , we were created a group of 3 where we were assign to create IoT (Internet of Thing) Device that can calculate patient heartrate,oxygen level and bpdy temperature.</p>
+              <a href="#" class="btn btn-primary">
+                Visit
+              </a>
+            </div>
+          </div>
         </div>
-      </nav>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
